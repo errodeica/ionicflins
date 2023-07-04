@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+    /* Pantallas grandes: Mostrar las cinco tarjetas en una fila */
+    .ion-col {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    /* Pantallas más pequeñas: Mostrar una tarjeta por fila */
+    .ion-col {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  
